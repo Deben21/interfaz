@@ -16,7 +16,7 @@ const postSchema = new Schema(
       required: true
     },
     creator: {
-      type: Object,  // changes to be done
+      type: Object,
       required: String
     }
   },
