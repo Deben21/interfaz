@@ -30,7 +30,7 @@ exports.createPost = (req, res, next) => {
     title: title,
     content: content,
     imageUrl: 'images/duck.jpg',
-    creator: { name: 'Maximilian' }
+    creator: { name: 'miccilian' }
   });
   post
     .save()
